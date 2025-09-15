@@ -6,8 +6,7 @@ The goal is **not modeling**, but to **practice and document the EDA process**: 
 ---
 
 ## 📂 Contents
-- `EDA_github_ready.ipynb` → main EDA notebook (univariate, bivariate, multivariate analysis)
-- `EDA_with_imputation_outlier.ipynb` → extended notebook with code for handling missing values and outliers
+- `EDA_github_ready.ipynb` → main EDA notebook (univariate, bivariate, multivariate analysis and handling missing values and outliers)
 - `data/` → (not included; place Titanic CSVs here)
 - `plots/` → auto-generated charts
 
