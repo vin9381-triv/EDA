@@ -1,43 +1,45 @@
 # Titanic Dataset – Exploratory Data Analysis (EDA)
 
-This repository contains a **clean Jupyter notebook** where I explore the Titanic dataset step by step using Python.  
-The goal is **not modeling**, but to **practice and document the EDA process**: how to look at data, generate charts, and spot patterns.
+This repository contains a **clean Jupyter notebook** where I explore the Titanic dataset step by step.  
+The goal is **not modeling**, but to **practice and document the EDA process**: exploring distributions, spotting patterns, and handling missing values & outliers.
 
 ---
 
 ## 📂 Contents
-- `EDA.ipynb` → the main notebook, structured and annotated for GitHub
-- `data/` → (not included here, place Titanic CSV files inside)
+- `EDA_github_ready.ipynb` → main EDA notebook (univariate, bivariate, multivariate analysis)
+- `EDA_with_imputation_outlier.ipynb` → extended notebook with code for handling missing values and outliers
+- `data/` → (not included; place Titanic CSVs here)
 - `plots/` → auto-generated charts
 
 ---
 
-## 🔍 What You’ll Find in the Notebook
-- **Univariate analysis**: histograms of numeric features, counts of categorical features  
-- **Bivariate analysis**: target (`Survived`) vs. each feature (boxplots, barplots)  
-- **Multivariate checks**: feature–feature comparisons to understand dependencies  
-- **Missing value exploration**: which columns need imputation  
-- **Outlier visualization**: spotting extreme values in `Fare`, `Age`, family counts  
+## 🔍 What You’ll Learn
+- How to systematically perform **univariate and bivariate analysis**
+- How to explore **target vs features** (Survived vs Age, Fare, Pclass, etc.)
+- How to check **feature-feature dependencies**
+- How to handle **missing values** (Age, Fare, Embarked)
+- How to handle **outliers** (Fare, Family size)
 
 ---
 
-## 🚦 Purpose
-- Serve as a **reference notebook** for anyone learning how to do EDA  
-- Show how to **systematically explore a dataset** using Python (pandas, seaborn, matplotlib)  
-- Create a **template workflow** I can reuse for future datasets  
+## 🚦 What This Repo Is *Not*
+- It does **not** include modeling or prediction.  
+- Instead, it focuses only on the **EDA decision-making process**.
+
+👉 For a detailed write-up with explanations and reasoning (normalization, scaling, regularization, feature engineering), see the accompanying article:  
+**[How to Decide Things in the EDA Process](https://your-article-link.com)**
 
 ---
 
 ## 🚀 How to Use
 1. Clone/download the repo.  
 2. Place Titanic CSVs into `data/`.  
-3. Open `EDA.ipynb` in Jupyter or VS Code.  
-4. Run through cells to reproduce plots.  
+3. Open either notebook in Jupyter or VS Code.  
+4. Run cells to reproduce plots and results.  
 
 ---
 
 ## ✨ Next Steps
-This notebook is code-only. Explanations and a full walkthrough (why each chart matters, how to interpret them, what normalization/regularization mean, etc.) will be published as a **separate article**.  
-That article can be referenced here once it’s live.  
-
----
+- Try feature engineering (FamilySize, Title extraction).  
+- Compare group-based imputations vs simple imputations.  
+- Extend this workflow into a full modeling pipeline.  
