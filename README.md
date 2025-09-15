@@ -6,7 +6,7 @@ The goal is **not modeling**, but to **practice and document the EDA process**: 
 ---
 
 ## 📂 Contents
-- `EDA_github_ready.ipynb` → the main notebook, structured and annotated for GitHub
+- `EDA.ipynb` → the main notebook, structured and annotated for GitHub
 - `data/` → (not included here, place Titanic CSV files inside)
 - `plots/` → auto-generated charts
 
